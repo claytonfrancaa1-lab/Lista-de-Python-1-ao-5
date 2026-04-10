@@ -1,0 +1,90 @@
+**Exercício 1:**
+
+nome = input ("Clayton França:")
+
+printf( "Olá, {nome}! Bem vindo ao mundo python no Vs code.")
+
+
+
+**Exercício 2:**
+
+um1 = float(input("Digite primeiro número:"))
+
+num2 = float(input("Digite o segundo número:"))
+
+
+
+soma = num1 + num2
+
+subtracao = num1 - num2
+
+multiplicacao = num1 \* num2
+
+divisao = num1 / num2
+
+
+
+print(f"resultados para {num1} e {num2}:")
+
+print(f"Soma: {soma}")
+
+print(f"Subtracao: {subtracao}")
+
+print(f"Multiplicacao: {multiplicacao}")
+
+print(f"Divisao: {divisao}")
+
+
+
+**Exercício 3:**
+
+numero = int(input("Digite um número inteiro:"))
+
+if numero % 2 == 0:
+
+&#x20;   print(f"O número {numero} é Par.")
+
+else:
+
+&#x20;   print(f"O número {numero} è Ímpar.")
+
+
+
+**Exercício 4:**
+
+numero = int(input("Digite um número para ver a tabuada"))
+
+print(f"tabuada do {numero}:")
+
+for i in range (1,11):
+
+&#x20;print(f"{numero} x {i} = {numero \* i}")
+
+
+
+**Exercício 5:**
+
+nota1 = float(input("Digite a primeira nota:"))
+
+nota2 = float(input("Digite a segunda nota:"))
+
+nota3 = float(input("Digite a terceira nota:"))
+
+
+
+media = (nota1 + nota2 + nota3) / 3
+
+print(f"Média: {media:.2f}")
+
+if media >=7:
+
+&#x20;   print("Aluno APROVADO!")
+
+else:
+
+&#x20;   print("Aluno REPROVADO.")
+
+
+
+
+
